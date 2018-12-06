@@ -1,0 +1,37 @@
+.navbar {
+	background-color: #1277DC !important;
+	color: #fff;
+	margin-bottom: 0 !important;
+}
+
+.hot-line {
+	line-height: 50px;
+}
+
+.login {
+	float: right;
+}
+
+.login a {
+	color: #fff;
+	font-size: 2rem;
+	padding: 2rem;
+	line-height: 50px;
+}
+
+.login a:visited, .login a:hover {
+	background-color: #fff;
+	color: #000;
+	text-decoration: none;
+}
+
+.foot-note {
+	width: 70%;
+	margin: 0 auto;
+	line-height: 50px;
+}
+
+.foot-note span {
+	display: inline-block;
+	margin: 0 0.5rem;
+}
