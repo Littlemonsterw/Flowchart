@@ -2,6 +2,8 @@
 	background-color: #1277DC !important;
 	color: #fff;
 	margin-bottom: 0 !important;
+	border: 0 !important;
+	border-radius: 0 !important;
 }
 
 .hot-line {
@@ -19,14 +21,14 @@
 	line-height: 50px;
 }
 
-.login a:visited, .login a:hover {
+.login a:hover {
 	background-color: #fff;
 	color: #000;
 	text-decoration: none;
 }
 
 .foot-note {
-	width: 70%;
+	width: 62%;
 	margin: 0 auto;
 	line-height: 50px;
 }
@@ -34,4 +36,72 @@
 .foot-note span {
 	display: inline-block;
 	margin: 0 0.5rem;
+}
+
+nav:nth-child(2), nav:nth-child(3) {
+	background-color: #F3F3F3 !important;
+}
+
+nav:nth-child(3) {
+	bottom: 50px;
+	color: grey;
+}
+
+.navigation {
+	float: right;
+	line-height: 50px;
+}
+
+.navigation button {
+	margin: 0 1em;
+}
+
+.btn-primary {
+	background-color: #1277DC !important;
+	border-color: #1277DC !important;
+}
+
+.link, .contact {
+	list-style: none;
+	margin-bottom: 0;
+}
+
+.link li {
+	float: left;
+	margin: 0 1em;
+	padding-top: 1em;
+}
+
+.link li>a {
+	color: grey;
+}
+
+.link li>a:hover {
+	color: #1277DC;
+	text-decoration: none;
+}
+
+.contact {
+	float: right;
+	padding-top: 0.5em;
+	margin-right: 1em;
+}
+
+img {
+	display: block;
+	float: right;
+}
+
+.contact li {
+	margin-bottom: 0.5em;
+}
+
+.row {
+	padding: 3em 0;
+}
+
+.product {
+	display: block;
+	padding-top: 0.6em;
+	font-size: 1.8rem;
 }
