@@ -176,3 +176,23 @@ h4 {
 	float: left;
 	margin: 0.6em 1em;
 }
+
+.shape-content, .texture-content {
+	height: 5em;
+	background-color: #FBFCFF;
+}
+
+.size-content {
+	height: 7em;
+	background-color: #FBFCFF;
+}
+
+.box-ul {
+	list-style-type: none;
+	margin-bottom: 1em;
+	float: left;
+}
+
+.box-ul li {
+	float: left;
+}

@@ -58,10 +58,16 @@
 				<span>选择箱型</span>
 			</div>
 			<div class="shape-content">
-				<ul>
-					<li>对口箱</li>
-					<li>飞机盒</li>
-					<li>天地盖</li>
+				<ul class="box-ul">
+					<li>
+						<label><input type="radio" checked="checked" name="box-type">对口箱</label>
+					</li>
+					<li>
+						<label><input type="radio" name="box-type">飞机盒</label>
+					</li>
+					<li>
+						<label><input type="radio" name="box-type">天地盖</label>
+					</li>
 				</ul>
 			</div>
 
@@ -70,14 +76,18 @@
 				<span>确定尺寸</span>
 			</div>
 			<div class="size-content">
-				<ul>
-					<li>外径</li>
+				<ul class="box-ul">
+					<li>
+						<label><input type="radio" checked="checked" name="diameter">外径</label>
+					</li>
 					<li>长<input type="text" name="box-length">mm</li>
 					<li>宽<input type="text" name="box-width">mm</li>
 					<li>高<input type="text" name="box-height">mm</li>
 				</ul>
-				<ul>
-					<li>内径</li>
+				<ul class="box-ul">
+					<li>
+						<label><input type="radio" name="diameter">内径</label>
+					</li>
 					<li>长<input type="text" name="box-length">mm</li>
 					<li>宽<input type="text" name="box-width">mm</li>
 					<li>高<input type="text" name="box-height">mm</li>
@@ -89,12 +99,22 @@
 				<span>选择材质</span>
 			</div>
 			<div class="texture-content">
-				<ul>
-					<li>二层A瓦优质</li>
-					<li>二层B瓦优质</li>
-					<li>三层A瓦优质</li>
-					<li>三层A瓦普通</li>
-					<li>三层B瓦优质</li>
+				<ul class="box-ul">
+					<li>
+						<label><input type="radio" checked="checked" name="texture-type">二层A瓦优质</label>
+					</li>
+					<li>
+						<label><input type="radio" name="texture-type">二层B瓦优质</label>
+					</li>
+					<li>
+						<label><input type="radio" name="texture-type">三层A瓦优质</label>
+					</li>
+					<li>
+						<label><input type="radio" name="texture-type">三层A瓦普通</label>
+					</li>
+					<li>
+						<label><input type="radio" name="texture-type">三层B瓦优质</label>
+					</li>
 				</ul>
 			</div>
 		</form>
