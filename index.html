@@ -51,11 +51,56 @@
 	</div>
 
 	<div class="container">
-		<h2>请您按照以下步骤来定制您的纸箱</h2>
-		<form></form>
+		<h4>请您按照以下步骤来定制您的纸箱</h4>
+		<form action="index.html" method="get">
+			<div class="shape">
+				<img src="./img/box.png">
+				<span>选择箱型</span>
+			</div>
+			<div class="shape-content">
+				<ul>
+					<li>对口箱</li>
+					<li>飞机盒</li>
+					<li>天地盖</li>
+				</ul>
+			</div>
+
+			<div class="size">
+				<img src="./img/ruler.png">
+				<span>确定尺寸</span>
+			</div>
+			<div class="size-content">
+				<ul>
+					<li>外径</li>
+					<li>长<input type="text" name="box-length">mm</li>
+					<li>宽<input type="text" name="box-width">mm</li>
+					<li>高<input type="text" name="box-height">mm</li>
+				</ul>
+				<ul>
+					<li>内径</li>
+					<li>长<input type="text" name="box-length">mm</li>
+					<li>宽<input type="text" name="box-width">mm</li>
+					<li>高<input type="text" name="box-height">mm</li>
+				</ul>
+			</div>
+
+			<div class="texture">
+				<img src="./img/texture.png">
+				<span>选择材质</span>
+			</div>
+			<div class="texture-content">
+				<ul>
+					<li>二层A瓦优质</li>
+					<li>二层B瓦优质</li>
+					<li>三层A瓦优质</li>
+					<li>三层A瓦普通</li>
+					<li>三层B瓦优质</li>
+				</ul>
+			</div>
+		</form>
 	</div>
 
-	<nav class="navbar navbar-fixed-bottom foot-content">
+	<nav class="navbar foot-content">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
@@ -82,7 +127,7 @@
 		</div>
 	</nav>
 
-	<nav class="navbar navbar-fixed-bottom">
+	<nav class="navbar">
 		<div class="container">
 			<div class="foot-note">
 				<span>北京五一包装科技有限公司Copyright&copy;2018</span>

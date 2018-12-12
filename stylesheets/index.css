@@ -47,7 +47,7 @@ nav:nth-child(2) {
 }
 
 .foot-content {
-	bottom: 50px !important;
+	/*bottom: 50px !important;*/
 	color: grey;
 	background-color: #F3F3F3 !important;
 }
@@ -156,3 +156,23 @@ img {
 .circle-1 {
 	background-color: #FF7F02;
 } 
+
+h4 {
+	font-weight: bold;
+	border-left: 3px solid #1277DC;
+	padding-left: 0.5em;
+}
+
+.shape, .size, .texture {
+	color: #1277DC;
+	background-color: #F3F3F3;
+	height: 2.5em;
+	border-radius: 0.5em;
+	line-height: 2.5em;
+	font-weight: bold;
+}
+
+.shape img, .size img, .texture img {
+	float: left;
+	margin: 0.6em 1em;
+}
