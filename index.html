@@ -58,17 +58,15 @@
 				<span>选择箱型</span>
 			</div>
 			<div class="shape-content">
-				<ul class="box-ul">
-					<li>
-						<label><input type="radio" checked="checked" name="box-type">对口箱</label>
-					</li>
-					<li>
-						<label><input type="radio" name="box-type">飞机盒</label>
-					</li>
-					<li>
-						<label><input type="radio" name="box-type">天地盖</label>
-					</li>
-				</ul>
+				<label><input type="radio" checked="checked" name="box-type">对口箱</label>
+				<label><input type="radio" name="box-type">飞机盒</label>
+				<label><input type="radio" name="box-type">天地盖</label>
+				<select name="detail" class="s1">
+					<option value="" disabled selected hidden>查看详情</option>
+					<option value="v1">对口箱</option>
+					<option value="v2">飞机箱</option>
+					<option value="v3">天地盖</option>
+				</select>
 			</div>
 
 			<div class="size">
@@ -76,22 +74,26 @@
 				<span>确定尺寸</span>
 			</div>
 			<div class="size-content">
-				<ul class="box-ul">
-					<li>
-						<label><input type="radio" checked="checked" name="diameter">外径</label>
-					</li>
-					<li>长<input type="text" name="box-length">mm</li>
-					<li>宽<input type="text" name="box-width">mm</li>
-					<li>高<input type="text" name="box-height">mm</li>
-				</ul>
-				<ul class="box-ul">
-					<li>
-						<label><input type="radio" name="diameter">内径</label>
-					</li>
-					<li>长<input type="text" name="box-length">mm</li>
-					<li>宽<input type="text" name="box-width">mm</li>
-					<li>高<input type="text" name="box-height">mm</li>
-				</ul>
+				<div class="ex-diameter">
+					<label><input type="radio" checked="checked" name="diameter">外径</label>
+				    <span>长</span><input type="text" name="box-length"><span>mm</span>
+				    <span>宽</span><input type="text" name="box-width"><span>mm</span>
+				    <span>高</span><input type="text" name="box-height"><span>mm</span>
+				</div>
+				
+				<div class="in-diameter">
+					<label><input type="radio" name="diameter">内径</label>
+				    <span>长</span><input type="text" name="box-length"><span>mm</span>
+				    <span>宽</span><input type="text" name="box-width"><span>mm</span>
+				    <span>高</span><input type="text" name="box-height"><span>mm</span>
+				</div>
+
+				<select name="detail" class="s2">
+					<option value="" disabled selected hidden>查看详情</option>
+					<option value="v1">长方形</option>
+					<option value="v2">正方形</option>
+					<option value="v3">菱形</option>
+				</select>
 			</div>
 
 			<div class="texture">
@@ -99,23 +101,18 @@
 				<span>选择材质</span>
 			</div>
 			<div class="texture-content">
-				<ul class="box-ul">
-					<li>
-						<label><input type="radio" checked="checked" name="texture-type">二层A瓦优质</label>
-					</li>
-					<li>
-						<label><input type="radio" name="texture-type">二层B瓦优质</label>
-					</li>
-					<li>
-						<label><input type="radio" name="texture-type">三层A瓦优质</label>
-					</li>
-					<li>
-						<label><input type="radio" name="texture-type">三层A瓦普通</label>
-					</li>
-					<li>
-						<label><input type="radio" name="texture-type">三层B瓦优质</label>
-					</li>
-				</ul>
+				<label><input type="radio" checked="checked" name="texture-type">二层A瓦优质</label>
+				<label><input type="radio" name="texture-type">二层B瓦优质</label>
+				<label><input type="radio" name="texture-type">三层A瓦优质</label>
+				<label><input type="radio" name="texture-type">三层A瓦普通</label>
+				<label><input type="radio" name="texture-type">三层B瓦优质</label>
+
+				<select name="detail" class="s3">
+					<option value="" disabled selected hidden>查看详情</option>
+					<option value="v1">优质</option>
+					<option value="v2">精良</option>
+					<option value="v3">普通</option>
+				</select>
 			</div>
 		</form>
 	</div>
@@ -136,7 +133,7 @@
 			    	</ul>
 			    </div>
 			    <div class="col-md-4">
-			    	<img src="./img/gzh.png">
+			    	<img src="./img/gzh.png" class="contact-img">
 			    	<ul class="contact">
 			    		<li><span>TEL：400-0000-000</span></li>
 			    		<li><span>企业QQ：123456789</span></li>
