@@ -58,9 +58,15 @@
 				<span>选择箱型</span>
 			</div>
 			<div class="shape-content">
-				<label><input type="radio" checked="checked" name="box-type">对口箱</label>
-				<label><input type="radio" name="box-type">飞机盒</label>
-				<label><input type="radio" name="box-type">天地盖</label>
+				<input type="radio" name="box-type" id="radio1" checked>
+				<label for="radio1">对口箱</label>
+
+				<input type="radio" name="box-type" id="radio2">
+				<label for="radio2">飞机盒</label>
+
+				<input type="radio" name="box-type" id="radio3">
+				<label for="radio3">天地盖</label>
+
 				<select name="detail" class="s1">
 					<option value="" disabled selected hidden>查看详情</option>
 					<option value="v1">对口箱</option>
@@ -75,17 +81,11 @@
 			</div>
 			<div class="size-content">
 				<div class="ex-diameter">
-					<label><input type="radio" checked="checked" name="diameter">外径</label>
-				    <span>长</span><input type="text" name="box-length"><span>mm</span>
-				    <span>宽</span><input type="text" name="box-width"><span>mm</span>
-				    <span>高</span><input type="text" name="box-height"><span>mm</span>
-				</div>
-				
-				<div class="in-diameter">
-					<label><input type="radio" name="diameter">内径</label>
-				    <span>长</span><input type="text" name="box-length"><span>mm</span>
-				    <span>宽</span><input type="text" name="box-width"><span>mm</span>
-				    <span>高</span><input type="text" name="box-height"><span>mm</span>
+					<input type="radio" name="diameter" id="radio4" checked>
+					<label for="radio4">外径</label>
+				    <span class="size-length">长</span><input type="text" name="box-length"><span class="mm">mm</span>
+				    <span class="size-length">宽</span><input type="text" name="box-width"><span class="mm">mm</span>
+				    <span class="size-length">高</span><input type="text" name="box-height"><span class="mm">mm</span>
 				</div>
 
 				<select name="detail" class="s2">
@@ -94,6 +94,14 @@
 					<option value="v2">正方形</option>
 					<option value="v3">菱形</option>
 				</select>
+				
+				<div class="in-diameter">
+					<input type="radio" name="diameter" id="radio5">
+					<label for="radio5">内径</label>
+				    <span class="size-length">长</span><input type="text" name="box-length"><span class="mm">mm</span>
+				    <span class="size-length">宽</span><input type="text" name="box-width"><span class="mm">mm</span>
+				    <span class="size-length">高</span><input type="text" name="box-height"><span class="mm">mm</span>
+				</div>
 			</div>
 
 			<div class="texture">
@@ -101,11 +109,20 @@
 				<span>选择材质</span>
 			</div>
 			<div class="texture-content">
-				<label><input type="radio" checked="checked" name="texture-type">二层A瓦优质</label>
-				<label><input type="radio" name="texture-type">二层B瓦优质</label>
-				<label><input type="radio" name="texture-type">三层A瓦优质</label>
-				<label><input type="radio" name="texture-type">三层A瓦普通</label>
-				<label><input type="radio" name="texture-type">三层B瓦优质</label>
+				<input type="radio" name="texture-type" id="r1" checked>
+				<label for="r1">二层A瓦优质</label>
+
+				<input type="radio" name="texture-type" id="r2">
+				<label for="r2">二层B瓦优质</label>
+
+				<input type="radio" name="texture-type" id="r3">
+				<label for="r3">三层A瓦优质</label>
+
+				<input type="radio" name="texture-type" id="r4">
+				<label for="r4">三层A瓦普通</label>
+
+				<input type="radio" name="texture-type" id="r5">
+				<label for="r5">三层B瓦优质</label>
 
 				<select name="detail" class="s3">
 					<option value="" disabled selected hidden>查看详情</option>
@@ -113,6 +130,9 @@
 					<option value="v2">精良</option>
 					<option value="v3">普通</option>
 				</select>
+			</div>
+			<div class="next-submit">
+				<button type="button" class="btn btn-danger btn-lg">下一步</button>
 			</div>
 		</form>
 	</div>
@@ -147,10 +167,7 @@
 	<nav class="navbar">
 		<div class="container">
 			<div class="foot-note">
-				<span>北京五一包装科技有限公司Copyright&copy;2018</span>
-			    <span>51baozhuang.com015</span>
-			    <span>All rights reserved.</span>
-			    <span>京icp备9999999-1</span>
+				北京五一包装科技有限公司Copyright&copy;2018 &nbsp;51baozhuang.com015 &nbsp;All rights reserved. &nbsp;京icp备9999999-1
 			</div>
 		</div>
 	</nav>
