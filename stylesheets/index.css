@@ -295,6 +295,120 @@ input[type="radio"]:checked + label:after {
 	margin: 0 2.5em;
 }
 
+@media (width: 320px) {
+	.shape-content {
+		height: 14.5rem !important;
+	}
+
+	.size-content label {
+		margin-right: 70% !important;
+	}
+
+	.contact-img {
+		position: absolute;
+		top: 4.9rem;
+		left: 68%;
+	}
+}
+
+@media (max-width: 645px) {
+	.hot-line, .in, .up {
+		font-size: 0.5rem;
+	}
+
+	.foot-note {
+		line-height: unset;
+		font-size: 0.4rem;
+		letter-spacing: 0.01rem;
+	}
+
+	.product {
+		padding-top: unset;
+		font-size: 1.6rem;
+		text-align: center;
+	}
+
+	.contact {
+		float: left !important;
+		margin-top: 1rem;
+		margin-left: 1em;
+	}
+
+	.contact-img {
+		margin-top: 3.5em;
+		margin-right: 2em;
+	}
+
+	.flow {
+		width: 96%;
+		margin: 0 auto !important;
+	}
+
+	.step-1 span, .step span {
+		/*width: unset;*/
+		font-size: 1.2rem;
+	}
+
+	.circle, .circle-1 {
+		left: 36%;
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+		bottom: 2.7rem;
+	}
+
+	.step, .step-1 {
+		border-top-width: 0.25rem;
+	}
+
+	.shape-content {
+		height: 10rem;
+	}
+
+	label {
+		margin-right: unset;
+	}
+
+	.s1, .s2, .s3 {
+		display: inherit;
+		margin: 0 auto;
+		float: unset;
+	}
+
+	.size-content {
+		height: 21rem;
+	}
+
+	.size-content label {
+		margin-right: 74%;
+	}
+
+	.size-length {
+		margin-left: 2rem;
+	}
+
+	input[type='text'] {
+		width: 2.5rem;
+	}
+
+	.ex-diameter, .in-diameter {
+		margin-bottom: 2em;
+	}
+
+	.s2 {
+		position: relative;
+		top: 12rem;
+	}
+
+	.texture-content {
+		height: 20.5em !important;
+	}
+
+	input[type="radio"]:checked + label:after {
+		left: 6.5px;
+	}
+}
+
 @media (max-width: 1199px) {
 	.texture-content {
 		height: 10.5em;
@@ -314,3 +428,4 @@ input[type="radio"]:checked + label:after {
 		font-size: unset;
 	}
 }
+
